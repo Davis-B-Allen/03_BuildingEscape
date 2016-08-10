@@ -45,3 +45,30 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+
+
+
+# ========================================== #
+# UNREAL GENERATED/DERIVED FILES AND FOLDERS #
+# ========================================== #
+
+*/Build
+*/Binaries
+*/DerivedDataCache
+*/Intermediate
+*/Saved
+
+# ================================================= #
+# VISUAL STUDIO GENERATED/DERIVED FILES AND FOLDERS #
+# ================================================= #
+
+*.VC.db
+
+
+# ============== #
+# Starter Assets #
+# ============== #
+
+Section_03/Content/StarterContent/
+
