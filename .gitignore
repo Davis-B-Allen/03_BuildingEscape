@@ -25,9 +25,13 @@
 # XCODE GENERATED/DERIVED FILES AND FOLDERS #
 # ========================================= #
 
-# Eh, leave the xcuserdata folder thing in for now until I know more about what it is
-**/xcuserdata
+**/xcuserdata/
+Section_03/Section_03.xcworkspace/xcuserdata/davisallen.xcuserdatad/UserInterfaceState.xcuserstate
+
 Section_03/Section_03.xcworkspace/contents.xcworkspacedata
+
+
+
 
 
 
@@ -36,4 +40,5 @@ Section_03/Section_03.xcworkspace/contents.xcworkspacedata
 # ============== #
 
 Section_03/Content/StarterContent/
+
 
