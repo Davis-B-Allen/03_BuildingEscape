@@ -26,7 +26,8 @@
 # ========================================= #
 
 # Eh, leave the xcuserdata folder thing in for now until I know more about what it is
-# Section_03/Section_03.xcworkspace/xcuserdata/
+**/xcuserdata
+Section_03/Section_03.xcworkspace/contents.xcworkspacedata
 
 
 
