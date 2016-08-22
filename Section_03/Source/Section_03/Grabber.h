@@ -23,5 +23,25 @@ public:
 
 
 private:
-    float Reach = 100.0f;
+    // How far away the player can reach in cm
+	float Reach = 100.0f;
+
+	UPhysicsHandleComponent* PhysicsHandle = nullptr;
+	
+	UInputComponent* InputComponent = nullptr;
+
+	// Raycast and grab what's in reach
+	void Grab();
+
+	// Release currently grabbed object
+	void Release();
+
+	// Find attached physics handle
+	void FindPhysicsHandleComponent();
+
+	// Setup (assumed) attached input component
+	void SetupInputComponent();
+
+	// Return hit for first physics body in reach
+	const FHitResult GetFirstPhysicsBodyInReach();
 };
