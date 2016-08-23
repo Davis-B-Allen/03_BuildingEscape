@@ -17,6 +17,7 @@
 *.VC.db
 *.VC.opendb
 *.suo
+*.sln
 
 # Not sure about the following one either (think it's some VS user settings but not sure), so we'll leave it tracked.... for now.....
 # Section_03/.vs/
