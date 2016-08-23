@@ -44,4 +44,10 @@ private:
 
 	// Return hit for first physics body in reach
 	const FHitResult GetFirstPhysicsBodyInReach();
+
+	// Get endpoint of player's grab reach
+	FVector GetReachLineEnd();
+
+	// Get startpoint of player's grab reach, which is the the same as the player's viewpoint location
+	FVector GetReachLineStart();
 };
